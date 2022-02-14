@@ -21,6 +21,12 @@ h2 {
   line-height: 67px;
   color: #141414;
 }
+h3 {
+  margin-top: 72px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #141414;
+}
 .hidden {
   display: none;
 }
@@ -195,4 +201,74 @@ h2 {
 }
 .services__content {
   margin-bottom: 33px;
+}
+.calculate__header {
+  text-align: center;
+}
+.calculate__header-content {
+  width: 794px;
+  text-align: center;
+  margin-top: 27px;
+  font-size: 18px;
+  color: #141414;
+  margin-left: auto;
+  margin-right: auto;
+}
+.calculate__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calculate__form-progress {
+  display: flex;
+  align-items: center;
+  margin-top: 62px;
+}
+.progress__steps {
+  display: flex;
+  align-items: center;
+}
+.progress {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #841EEA;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #898989;
+}
+.progress__transition {
+  margin-left: 19px;
+  margin-right: 24px;
+}
+.calculate__form-assistents {
+  margin-top: 47px;
+  display: flex;
+  justify-content: space-around;
+}
+.calculate__form-assistents .img-form {
+  margin-right: 133px;
+}
+.calculate__form-assistents .img-form:last-child {
+  margin-right: 0;
+}
+.img-form {
+  width: 194px;
+  height: 194px;
+}
+.calculate__form-btn {
+  margin-top: 91px;
+  width: 192px;
+  height: 49px;
+  background: #841EEA;
+  border-radius: 40px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
 }
