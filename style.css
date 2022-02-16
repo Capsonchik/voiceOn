@@ -368,3 +368,53 @@ h3 {
   font-weight: bold;
   font-size: 22px;
 }
+.footer {
+  background: #141414;
+  margin-top: 138px;
+}
+.footer__content {
+  padding-top: 85px;
+  padding-bottom: 104px;
+  color: #F6F6F6;
+  display: flex;
+}
+.work-time {
+  margin-right: 219px;
+}
+.work-time h4,
+.adress h4 {
+  font-weight: bold;
+  font-size: 24px;
+}
+.work-time p,
+.adress p {
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 16px;
+}
+.work-time__chart {
+  display: flex;
+  margin-top: 32px;
+}
+.chart__day {
+  margin-right: 77px;
+}
+.chart__day p,
+.adress__contacts p {
+  font-weight: normal;
+  font-size: 18px;
+}
+.chart__time p {
+  font-weight: bold;
+  font-size: 18px;
+}
+.adress__contacts {
+  margin-top: 27px;
+}
+.adress__contacts-chart {
+  margin-top: 21px;
+}
+.adress__contacts-chart i {
+  font-size: 35px;
+  margin-right: 30px;
+}
