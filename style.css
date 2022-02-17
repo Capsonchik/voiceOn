@@ -365,7 +365,7 @@ ul li:last-child {
   font-size: 22px;
   color: #898989;
 }
-.form input::-moz-placeholder {
+.form input::-webkit-input-placeholder {
   padding-left: 25px;
   font-size: 22px;
   color: #898989;
