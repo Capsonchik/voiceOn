@@ -44,13 +44,16 @@ section {
 .header {
   margin-top: 53px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .header__nav {
   list-style: none;
   display: flex;
   cursor: pointer;
+}
+ul li:last-child {
+  margin-right: 0;
 }
 .header__nav a {
   text-decoration: none;
