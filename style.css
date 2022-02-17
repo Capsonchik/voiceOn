@@ -362,6 +362,11 @@ section {
   font-size: 22px;
   color: #898989;
 }
+.form input::-moz-placeholder {
+  padding-left: 25px;
+  font-size: 22px;
+  color: #898989;
+}
 .form-img {
   width: 694px;
   height: 524px;
