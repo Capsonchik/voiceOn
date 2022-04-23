@@ -5,6 +5,7 @@
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  max-width: 1920px;
 }
 h1 {
   font-family: Montserrat Alternates;
@@ -31,17 +32,21 @@ h3 {
 .hidden {
   display: none;
 }
-section {
-  max-width: 1920px;
-  margin: 0 auto;
-}
 .container {
   margin: 0 auto;
-  max-width: 1280px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1240px;
 }
 .header {
+  background-image: url(img/header-img.png);
+  background-repeat: no-repeat;
+  background-position: right 20px top 0;
+  height: 822px;
+}
+.header__block {
+  display: flex;
+  flex-direction: column;
+}
+.header__content {
   margin-top: 53px;
   display: flex;
   justify-content: space-between;

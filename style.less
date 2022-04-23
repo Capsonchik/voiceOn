@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 h1 {
@@ -39,11 +39,6 @@ h3 {
     display: none;
 }
 
-//section {
-//    max-width: 1920px;
-//    margin: 0 auto;
-//}
-
 .container {
     margin: 0 auto;
     max-width: 1240px;
@@ -52,7 +47,15 @@ h3 {
 //  HEADER
 
 .header {
-    margin-top: 200px;
+    background-image: url(./img/header-img.png);
+    background-repeat: no-repeat;
+    background-position: right 20px top 0;
+    height: 822px;
+}
+
+.header__block {
+    display: flex;
+    flex-direction: column;
 }
 
 .header__content {
@@ -143,7 +146,6 @@ ul li:last-child {
 // ASSISTENTS
 
 .assistents__content {
-    // padding: 76px 73px 100px 73px;
     background: rgba(163, 180, 243, 0.14);
     border-radius: 30px;
     margin-top: 99px;
