@@ -1,4 +1,4 @@
-const swiper = new Swiper('.assistents__swiper', {
+const swiper = new Swiper('.swiper', {
   // Optional parameters
   // direction: 'vertical',
   loop: true,

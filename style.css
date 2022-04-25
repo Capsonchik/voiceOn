@@ -116,15 +116,20 @@ ul li:last-child {
   color: #FFFFFF;
   border: none;
 }
+.assistents {
+  margin-top: 99px;
+}
 .assistents__slider {
   width: 595px;
-  height: 415px;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
 }
 .assistents__content {
   background: #AF95F9;
   max-width: 971px;
   border-radius: 30px;
-  margin-top: 99px;
   color: #ffffff;
 }
 .assistents__flex {
