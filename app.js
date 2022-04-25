@@ -1,25 +1,24 @@
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    loop: false,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+const swiper = new Swiper('.assistents__swiper', {
+  // Optional parameters
+  // direction: 'vertical',
+  loop: true,
 
-    // autoHeight: true, 
-    slidesPerView: 3,
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
-  });
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
 
 
 const openContent = document.querySelectorAll('.services__header')

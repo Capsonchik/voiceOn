@@ -1,3 +1,7 @@
+@btn-color: #841EEA;
+@white: #ffffff;
+
+
 * {
     margin: 0;
     padding: 0;
@@ -145,14 +149,30 @@ ul li:last-child {
 
 // ASSISTENTS
 
+.assistents__slider {
+    width: 595px;
+    height: 415px;
+}
+
 .assistents__content {
-    background: rgba(163, 180, 243, 0.14);
+    background: #AF95F9;
+    max-width: 971px;
     border-radius: 30px;
     margin-top: 99px;
+    color: @white;
+
+}
+
+.assistents__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
 }
 
 .assistents__header {
     padding-top: 38px;
+    color: @white;
 }
 
 .assistents__block {
@@ -160,6 +180,7 @@ ul li:last-child {
     justify-content:space-between;
     margin-top: 62px;
     min-width: 0;
+    padding-left: 46px;
 }
 
 .pick__assistents {
@@ -174,6 +195,19 @@ ul li:last-child {
 
 .pick__text {
     margin-top: 47px;
+}
+
+.assistents__btn {
+    margin-top: 48px;
+    margin-bottom: 51px;
+    background-color: @btn-color;
+    border: 0;
+    border-radius: 40px;
+    width: 333px;
+    height: 75px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
 }
 
 .assistents__pick {
