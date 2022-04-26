@@ -1,22 +1,21 @@
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  // direction: 'vertical',
+
   loop: true,
 
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: true,
   },
 
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
   },
 });
 
@@ -29,5 +28,12 @@ openContent.forEach(el => {
     })
 })
 
+
+const assistents = [
+  {
+    name: 'Yandex',
+    text: 'test'
+  }
+]
 
 
