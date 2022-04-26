@@ -186,6 +186,9 @@ ul li:last-child {
   color: #FFFFFF;
   cursor: pointer;
 }
+.active {
+  background: #841EEA;
+}
 .google {
   display: flex;
   align-items: center;

@@ -8,7 +8,7 @@ const swiper = new Swiper('.swiper', {
   },
 
   autoplay: {
-    delay: 2000,
+    delay: 3000,
     disableOnInteraction: true,
   },
 
@@ -20,20 +20,34 @@ const swiper = new Swiper('.swiper', {
 });
 
 
-const openContent = document.querySelectorAll('.services__header')
 
-openContent.forEach(el => {
-    el.addEventListener('click', (event) => {
-        el.nextElementSibling.classList.toggle('hidden')
+const assistentsBlock = document.querySelectorAll('.assistents__hover')
+
+assistentsBlock.forEach(el => {
+  el.addEventListener('click', event => {
+    removeActiveClass()
+    addActiveClass(event)
+    const text = document.querySelectorAll('.pick__text')
+    
+    text.forEach(el => {
+      el.classList.add('hidden')
+      checkAttribute(el)
     })
+  })
 })
 
+const removeActiveClass = () => {
+  assistentsBlock.forEach(el => {
+    el.classList.remove('active')
+  })
+}
 
-const assistents = [
-  {
-    name: 'Yandex',
-    text: 'test'
+const addActiveClass = (event) => {
+  event.target.classList.add('active')
+}
+
+const checkAttribute = (el) => {
+  if(el.getAttribute('name') == event.target.getAttribute('name')){
+    el.classList.remove('hidden')
   }
-]
-
-
+}
