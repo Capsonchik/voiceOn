@@ -22,6 +22,7 @@ h2 {
   line-height: 67px;
   color: #141414;
   margin-left: 46px;
+  text-transform: uppercase;
 }
 h3 {
   margin-top: 72px;
@@ -213,6 +214,41 @@ ul li:last-child {
   width: 33%;
   border-radius: 33px;
 }
+.possibility {
+  margin-top: 77px;
+}
+.possibility__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.possibility__card {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.card__header {
+  margin-top: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+.card__text {
+  list-style: none;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+.card__text li {
+  line-height: 20px;
+}
 .services {
   margin-top: 82px;
 }
@@ -309,6 +345,71 @@ ul li:last-child {
   font-weight: bold;
   font-size: 24px;
   color: #FFFFFF;
+}
+.packages {
+  margin-top: 115px;
+}
+.peckages__content {
+  margin-top: 53px;
+}
+.packages__card {
+  width: 323px;
+  background-image: url(img/packages-bg.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 22.2866px rgba(0, 0, 0, 0.25);
+  border-radius: 24.7629px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.packages-title {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 28px;
+  color: #FFFFFF;
+  text-shadow: 0px 3.30172px 9.07972px rgba(255, 255, 255, 0.25);
+  text-align: center;
+}
+.packages-img {
+  margin-top: 14px;
+}
+.packages-description {
+  margin-top: 22px;
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+.packages-description li {
+  margin-bottom: 5px;
+}
+.packages-old-price {
+  margin-top: 23px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #141414;
+  text-decoration: line-through;
+}
+.packages-new-price {
+  font-weight: 700;
+  font-size: 32px;
+  color: #841EEA;
+}
+.packages-btn {
+  margin-top: 12px;
+  margin-bottom: 18px;
+  width: 240.39px;
+  height: 45.79px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #841EEA;
+  border-radius: 23px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  border: 0;
 }
 .projects__content {
   display: flex;
