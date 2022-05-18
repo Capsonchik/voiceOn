@@ -346,6 +346,10 @@ ul li:last-child {
   font-size: 24px;
   color: #FFFFFF;
 }
+.packages__slider {
+  width: 700px;
+  height: 400px;
+}
 .packages {
   margin-top: 115px;
 }

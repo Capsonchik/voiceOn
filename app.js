@@ -19,6 +19,14 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
+const swiperPackage = new Swiper('.packages__slider', {
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
 
 
 const assistentsBlock = document.querySelectorAll('.assistents__hover')
