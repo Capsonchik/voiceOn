@@ -59,3 +59,21 @@ const checkAttribute = (el) => {
     el.classList.remove('hidden')
   }
 }
+
+
+const videoButton = document.querySelectorAll('.video__pick-buttons-button')
+const videoBlock = document.querySelectorAll('.video__block')
+
+videoButton.forEach(el => {
+  el.addEventListener('click', () => {
+    const buttonId = el.id
+    
+    console.log(buttonId)
+  })
+})
+
+videoBlock.forEach(el => {
+  el.classList.add('hidden')
+  
+})
+

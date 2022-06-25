@@ -537,38 +537,43 @@ ul li:last-child {
     align-items: center;
 }
 
-.projects__content-block {
+// PICK VIDEO 
+
+.video__pick {
     display: flex;
+    justify-content: space-between;
+}
+
+.video__pick-video {
+    width: 45%;    
+}
+
+.video__block {
+    width: 643px;
+    height: 358px;
+}
+
+.video {
+    border-radius: 30px;
+}
+
+.video__pick-buttons {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 79px;
 }
 
-.projects__info {
-    padding-left: 53px;
-}
-
-.info-reverb {
-    flex-direction: row-reverse;
-}
-
-.info-reverb .projects__info  {
-    padding-left: 0;
-    padding-right: 53px;
-}
-
-.projects__info-header {
-    margin: 0;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.projects__info-text {
-    margin-top: 40px;
-    font-weight: normal;
+.video__pick-buttons-button {
+    background-color: inherit;
+    width: 45%;
+    height: 63px;
+    border-radius: 33px;
+    border: 1px solid #841EEA;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 140%;
-    color: #141414;
 }
+
 
 // CALL US
 
@@ -584,7 +589,8 @@ ul li:last-child {
 
 .form {
     width: 577px;
-    box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.25);
+    background: #AF95F9;
+    box-shadow: 0px 0px 18.8153px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -592,7 +598,6 @@ ul li:last-child {
     padding-top: 52px;
     padding-right: 52px;
     z-index: 10;
-    background: #FFFFFF;
 }
 
 .form span {
@@ -644,7 +649,7 @@ ul li:last-child {
 // FOOTER 
 
 .footer {
-    background: #141414;
+    background: #6A18BB;
     margin-top: 138px;
 }
 
