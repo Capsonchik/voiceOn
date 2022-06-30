@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper1', {
 
   loop: true,
 
@@ -19,12 +19,18 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-const swiperPackage = new Swiper('.packages__slider', {
-
+const secondSwiper = new Swiper('.swiper2', {
+  loop: true,
+  slidesPerView: 3,
+  nested: true,
+  watchOverflow: true,
+  spaceBetween: 30,
+  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+
 });
 
 
@@ -67,13 +73,24 @@ const videoBlock = document.querySelectorAll('.video__block')
 videoButton.forEach(el => {
   el.addEventListener('click', () => {
     const buttonId = el.id
-    
+    const videoBlock = document.querySelectorAll('.video__block')
+    videoBlock.forEach(el => {
+      el.classList.add('hidden')
+      if(el.getAttribute('name') == buttonId) {
+        el.classList.add('active')
+      } else {
+        el.classList.remove('active')
+      }
+    })
+    // const elemAtribute = el.getAttribute('name')
     console.log(buttonId)
   })
 })
 
-videoBlock.forEach(el => {
-  el.classList.add('hidden')
+
+
+// videoBlock.forEach(el => {
+//   el.classList.add('hidden')
   
-})
+// })
 

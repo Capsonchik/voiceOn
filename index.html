@@ -82,7 +82,7 @@
                     <button class='assistents__btn'>Интернет магазин</button>
                 </div>
                 <div class="assistents__slider">
-                    <div class="swiper">
+                    <div class="swiper swiper1">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <img src="./img/slider-img/slide1.png" alt="#">
@@ -206,13 +206,31 @@
 
 <section class='packages'>
     <div class="container">
-        <h2>Пакеты асистенов</h2>
-        <div class="peckages__content">  
-            <div class="swiper packages__slider">
+        <h2>Пакеты асистенов</h2> 
+        <div class="packages__content">
+            <div class="swiper swiper2">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="packages__card">
                             <h3 class='packages-title'>Освещение AGARA</h3>
+                            <img class='packages-img' src="https://imgholder.ru/280x160/8493a8/adb9ca&text=Заглушка&font=kelson" alt="#">
+                            <ul class='packages-description'>
+                                <li>Домашний центр</li>
+                                <li>Датчик движения</li>
+                                <li>Умный выключатель</li>
+                                <li>Датчик температуры, влажности и давления</li>
+                                <li>Датчик протечки воды</li>
+                                <li>Датчик открытия двери/окна</li>
+                                <li><a href="#">подробнее</a></li>    
+                            </ul>
+                            <p class="packages-old-price">18 000 ₽</p>
+                            <p class="packages-new-price">15 000 ₽</p>
+                            <button class='packages-btn'>Оформить</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <div class="packages__card">
+                            <h3 class='packages-title'>Освещение AGARA</h3>
                             <img class='packages-img' src="https://imgholder.ru/280x160/8493a8/adb9ca&text=Заглушка&font=kelson" width='280px' height='160px' alt="#">
                             <ul class='packages-description'>
                                 <li>Домашний центр</li>
@@ -221,13 +239,12 @@
                                 <li>Датчик температуры, влажности и давления</li>
                                 <li>Датчик протечки воды</li>
                                 <li>Датчик открытия двери/окна</li>
-                                <li><a href="#">подробнее</a></li>
-                                
+                                <li><a href="#">подробнее</a></li>    
                             </ul>
                             <p class="packages-old-price">18 000 ₽</p>
                             <p class="packages-new-price">15 000 ₽</p>
                             <button class='packages-btn'>Оформить</button>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="swiper-slide">
                         <div class="packages__card">
@@ -240,37 +257,17 @@
                                 <li>Датчик температуры, влажности и давления</li>
                                 <li>Датчик протечки воды</li>
                                 <li>Датчик открытия двери/окна</li>
-                                <li><a href="#">подробнее</a></li>
-                                
+                                <li><a href="#">подробнее</a></li>    
                             </ul>
                             <p class="packages-old-price">18 000 ₽</p>
                             <p class="packages-new-price">15 000 ₽</p>
                             <button class='packages-btn'>Оформить</button>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="packages__card">
-                            <h3 class='packages-title'>Освещение AGARA</h3>
-                            <img class='packages-img' src="https://imgholder.ru/280x160/8493a8/adb9ca&text=Заглушка&font=kelson" width='280px' height='160px' alt="#">
-                            <ul class='packages-description'>
-                                <li>Домашний центр</li>
-                                <li>Датчик движения</li>
-                                <li>Умный выключатель</li>
-                                <li>Датчик температуры, влажности и давления</li>
-                                <li>Датчик протечки воды</li>
-                                <li>Датчик открытия двери/окна</li>
-                                <li><a href="#">подробнее</a></li>
-                                
-                            </ul>
-                            <p class="packages-old-price">18 000 ₽</p>
-                            <p class="packages-new-price">15 000 ₽</p>
-                            <button class='packages-btn'>Оформить</button>
-                        </div>
-                    </div>               
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-            </div>  
+            </div>   
             <!-- <div class="packages__card">
                 <h3 class='packages-title'>Освещение AGARA</h3>
                 <img class='packages-img' src="https://imgholder.ru/280x160/8493a8/adb9ca&text=Заглушка&font=kelson" width='280px' height='160px' alt="#">
@@ -281,8 +278,7 @@
                     <li>Датчик температуры, влажности и давления</li>
                     <li>Датчик протечки воды</li>
                     <li>Датчик открытия двери/окна</li>
-                    <li><a href="#">подробнее</a></li>
-                    
+                    <li><a href="#">подробнее</a></li>    
                 </ul>
                 <p class="packages-old-price">18 000 ₽</p>
                 <p class="packages-new-price">15 000 ₽</p>
@@ -306,22 +302,40 @@
     <div class="container">
         <div class="video__pick">
             <div class="video__pick-video">
-                <div class="video__block">
+                <div name='video1' class="video__block">
                     <iframe class='video' width="100%" height="100%" src="https://www.youtube.com/embed/2NW7spdIA_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="video__block hidden">
+                <div name='video2' class="video__block hidden">
                     <iframe class='video' width="100%" height="100%" src="https://www.youtube.com/embed/ra__C1m5hOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div name='video3' class="video__block hidden">
+                    <iframe class='video' width="100%" height="100%" src="https://www.youtube.com/embed/WAmQVz8rsLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div name='video4' class="video__block hidden">
+                    <iframe class='video' width="100%" height="100%" src="https://www.youtube.com/embed/ELQke9LQjs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div name='video5' class="video__block hidden">
+                    <iframe class='video' width="100%" height="100%" src="https://www.youtube.com/embed/ocz4hErywkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div name='video6' class="video__block hidden">
+                    <iframe class='video' width="100%" height="100%" src="https://www.youtube.com/embed/-HniaCR4lq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div name='video7' class="video__block hidden">
+                    <iframe class='video' width="100%" height="100%" src="https://www.youtube.com/embed/zy8vbXHw5Pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div name='video8' class="video__block hidden">
+                    <iframe class='video' width="100%" height="100%" src="https://www.youtube.com/embed/VIMb5GSKhNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="video__pick-buttons">
                 <button id='video1' class='video__pick-buttons-button'>Лядов Дубай</button>
-                <button id='video2' class='video__pick-buttons-button'>Лядов Дубай</button>
-                <button id='video3' class='video__pick-buttons-button'>Лядов Дубай</button>
-                <button id='video4' class='video__pick-buttons-button'>Лядов Дубай</button>
-                <button id='video5' class='video__pick-buttons-button'>Лядов Дубай</button>
-                <button id='video6' class='video__pick-buttons-button'>Лядов Дубай</button>
-                <button id='video7' class='video__pick-buttons-button'>Лядов Дубай</button>
-                <button id='video8' class='video__pick-buttons-button'>Лядов Дубай</button>
+                <button id='video2' class='video__pick-buttons-button'>Лядов Дагестан</button>
+                <button id='video3' class='video__pick-buttons-button'>Лядов Карелия</button>
+                <button id='video4' class='video__pick-buttons-button'>Лядов Таймыр</button>
+                <button id='video5' class='video__pick-buttons-button'>Лядов Сахалин</button>
+                <button id='video6' class='video__pick-buttons-button'>Лядов Байкал</button>
+                <button id='video7' class='video__pick-buttons-button'>Лядов Чукотка</button>
+                <button id='video8' class='video__pick-buttons-button'>Лядов Приднестровье</button>
             </div>
         </div>
     </div>
